@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Footer from './Components';
 
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <Footer/>
       </div>
     );
   }
